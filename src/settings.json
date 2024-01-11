@@ -1,0 +1,59 @@
+{
+    "debug": true,
+    "CocosEngine": "3.3.1",
+    "designResolution": {
+        "width": 640,
+        "height": 1136,
+        "policy": 2
+    },
+    "platform": "web-mobile",
+    "bundleVers": {},
+    "subpackages": [],
+    "remoteBundles": [],
+    "hasResourcesBundle": true,
+    "hasStartSceneBundle": false,
+    "launchScene": "db://assets/Scene/PreloadScene.scene",
+    "jsList": [],
+    "moduleIds": [],
+    "renderPipeline": "",
+    "engineModules": [],
+    "customJointTextureLayouts": [],
+    "physics": {
+        "physicsEngine": "physics-ammo",
+        "gravity": {
+            "x": 0,
+            "y": -10,
+            "z": 0
+        },
+        "allowSleep": true,
+        "sleepThreshold": 0.1,
+        "autoSimulation": true,
+        "fixedTimeStep": 0.0166667,
+        "maxSubSteps": 1,
+        "defaultMaterial": {
+            "friction": 0.5,
+            "rollingFriction": 0.1,
+            "spinningFriction": 0.1,
+            "restitution": 0
+        },
+        "collisionGroups": [
+            {
+                "index": 1,
+                "name": "Testing"
+            },
+            {
+                "index": 2,
+                "name": "Map"
+            }
+        ],
+        "collisionMatrix": {
+            "0": 6,
+            "1": 7,
+            "2": 3
+        }
+    },
+    "scriptPackages": [
+        "./src/chunks/bundle.js"
+    ],
+    "orientation": "auto"
+}
